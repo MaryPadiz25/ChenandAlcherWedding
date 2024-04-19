@@ -1,0 +1,53 @@
+
+*{
+    box-sizing:border-box;
+}
+body{
+    font-family: Times New Roman;
+    margin: 0;
+
+}
+.slider{
+width: 526px;
+max-width: 600px;
+height: 825px;
+margin: auto;
+position: relative;
+overflow: hidden;
+}
+.list{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width:100%;
+    transition: 1s;
+}
+.list img{
+    width: 1300px;
+    max-width: 526px;
+    height: 100%;
+    object-fit: cover;
+}
+.buttons{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+.buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #000;;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
