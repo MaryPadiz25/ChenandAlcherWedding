@@ -7,7 +7,7 @@ body{
     margin: 0;
 }
 .slider{
-width: 526px;
+width: 325px;
 max-width: 600px;
 height: 825px;
 margin: auto;
@@ -25,7 +25,7 @@ overflow: hidden;
 }
 .list img{
     width: 1300px;
-    max-width: 526px;
+    max-width:325px;
     height: 100%;
     object-fit: cover;
 }
