@@ -6,7 +6,7 @@ body{
     font-family: Times New Roman;
     margin: 0;
 }
-@media (max-width:1020px){
+@media (max-width:1050px){
 .slider{
 width: 526px;
 max-width: 600px;
@@ -50,12 +50,12 @@ overflow: hidden;
     border: none;
     font-family: monospace;
     font-weight: bold;
-}}
-@media (max-width:320px){
-    body{max-width:320px}
+}
+}
+@media (max-width:325px){
     .slider{
-width: 320px;
-height: auto;
+width: 100%;
+height: 825px;
 margin: auto;
 position: relative;
 overflow: hidden;
@@ -95,4 +95,4 @@ overflow: hidden;
     border: none;
     font-family: monospace;
     font-weight: bold;
-}}
+}
